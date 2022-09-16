@@ -1,0 +1,15 @@
+D:\учебный\копчик - маленький американский полицейский\финалочка\WinFormsControlLibraryS\obj\Debug\net6.0-windows\WinFormsControlLibraryS.csproj.AssemblyReference.cache
+D:\учебный\копчик - маленький американский полицейский\финалочка\WinFormsControlLibraryS\obj\Debug\net6.0-windows\WinFormsControlLibraryS.ListBoxControl.resources
+D:\учебный\копчик - маленький американский полицейский\финалочка\WinFormsControlLibraryS\obj\Debug\net6.0-windows\WinFormsControlLibraryS.TextBoxControl.resources
+D:\учебный\копчик - маленький американский полицейский\финалочка\WinFormsControlLibraryS\obj\Debug\net6.0-windows\WinFormsControlLibraryS.csproj.GenerateResource.cache
+D:\учебный\копчик - маленький американский полицейский\финалочка\WinFormsControlLibraryS\obj\Debug\net6.0-windows\WinFormsControlLibraryS.GeneratedMSBuildEditorConfig.editorconfig
+D:\учебный\копчик - маленький американский полицейский\финалочка\WinFormsControlLibraryS\obj\Debug\net6.0-windows\WinFormsControlLibraryS.AssemblyInfoInputs.cache
+D:\учебный\копчик - маленький американский полицейский\финалочка\WinFormsControlLibraryS\obj\Debug\net6.0-windows\WinFormsControlLibraryS.AssemblyInfo.cs
+D:\учебный\копчик - маленький американский полицейский\финалочка\WinFormsControlLibraryS\obj\Debug\net6.0-windows\WinFormsControlLibraryS.csproj.CoreCompileInputs.cache
+D:\учебный\копчик - маленький американский полицейский\финалочка\WinFormsControlLibraryS\bin\Debug\net6.0-windows\WinFormsControlLibraryS.deps.json
+D:\учебный\копчик - маленький американский полицейский\финалочка\WinFormsControlLibraryS\bin\Debug\net6.0-windows\WinFormsControlLibraryS.dll
+D:\учебный\копчик - маленький американский полицейский\финалочка\WinFormsControlLibraryS\bin\Debug\net6.0-windows\WinFormsControlLibraryS.pdb
+D:\учебный\копчик - маленький американский полицейский\финалочка\WinFormsControlLibraryS\obj\Debug\net6.0-windows\WinFormsControlLibraryS.dll
+D:\учебный\копчик - маленький американский полицейский\финалочка\WinFormsControlLibraryS\obj\Debug\net6.0-windows\refint\WinFormsControlLibraryS.dll
+D:\учебный\копчик - маленький американский полицейский\финалочка\WinFormsControlLibraryS\obj\Debug\net6.0-windows\WinFormsControlLibraryS.pdb
+D:\учебный\копчик - маленький американский полицейский\финалочка\WinFormsControlLibraryS\obj\Debug\net6.0-windows\ref\WinFormsControlLibraryS.dll
