@@ -12,43 +12,53 @@ namespace WinFormsControlLibraryS
 {
     public partial class ListBoxControl : UserControl
     {
-        private event EventHandler SelectedElementChange;
-        private object _checkedItems;
+        public string ValueList
+        {
+            set
+            {
+                listBox.Text = value;
+            }
+            get { return listBox.Text; }
+        }
+
+        private void ListBox_SelectedChanged(object sender, System.EventArgs e)
+        {
+            eventHandler.Invoke(sender, e);
+        }
+
+        public event EventHandler eventHandler;
+
+        /// <summary>
+        /// Событие, которое вызывается при изменении элемента
+        /// </summary>
+        public event EventHandler SpecEvent
+        {
+            add { eventHandler += value; }
+            remove { eventHandler -= value; }
+        }
+        /// <summary>
+        /// User Control, содержащий ListBox и методы работы с ним
+        /// </summary>
         public ListBoxControl()
         {
             InitializeComponent();
-            listBox1.SelectedValueChanged += (sender, e)
-                => {
-                    SelectedElementChange?.Invoke(sender, e);
-                    CheckedItems = listBox1.SelectedItems;
-                };
-        }
-        public void Add(string str)
-        {
-            listBox1.Items.Add(str);
-        }
-        public void Clear()
-        {
-            listBox1.Items.Clear();
         }
 
-        public object CheckedItems
+        /// <summary>
+        /// Добавляет элемент в ListBox
+        /// </summary>
+        public void Add(string item)
         {
-            get
-            {
-                return _checkedItems;
-            }
-            set
-            {
-                if (listBox1.SelectedItems == null)
-                {
-                    _checkedItems = "";
-                }
-                else
-                {
-                    _checkedItems = value;
-                }
-            }
+            listBox.Items.Add(item);
+        }
+
+        /// <summary>
+        /// Очищает список элементов ListBox
+        /// </summary>
+        public void Clear()
+        {
+            listBox.Items.Clear();
+            listBox.ResetText();
         }
     }
 }

@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.1.32328.378
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WinFormsControlLibraryS", "WinFormsControlLibraryS\WinFormsControlLibraryS.csproj", "{3225DAC2-60C4-4BEA-810D-5A29C2F1ADE2}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WinFormsControlLibraryS", "WinFormsControlLibraryS\WinFormsControlLibraryS.csproj", "{3225DAC2-60C4-4BEA-810D-5A29C2F1ADE2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CopView", "CopView\CopView.csproj", "{777E7BA6-0172-4380-9C0C-C9B394E391B4}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,10 @@ Global
 		{3225DAC2-60C4-4BEA-810D-5A29C2F1ADE2}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3225DAC2-60C4-4BEA-810D-5A29C2F1ADE2}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3225DAC2-60C4-4BEA-810D-5A29C2F1ADE2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{777E7BA6-0172-4380-9C0C-C9B394E391B4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{777E7BA6-0172-4380-9C0C-C9B394E391B4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{777E7BA6-0172-4380-9C0C-C9B394E391B4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{777E7BA6-0172-4380-9C0C-C9B394E391B4}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

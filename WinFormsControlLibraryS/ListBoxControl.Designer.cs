@@ -28,30 +28,30 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.listBox1 = new System.Windows.Forms.ListBox();
+            this.listBox = new System.Windows.Forms.ListBox();
             this.SuspendLayout();
             // 
-            // listBox1
+            // listBox
             // 
-            this.listBox1.FormattingEnabled = true;
-            this.listBox1.ItemHeight = 15;
-            this.listBox1.Location = new System.Drawing.Point(14, 28);
-            this.listBox1.Name = "listBox1";
-            this.listBox1.Size = new System.Drawing.Size(120, 94);
-            this.listBox1.TabIndex = 0;
+            this.listBox.FormattingEnabled = true;
+            this.listBox.ItemHeight = 15;
+            this.listBox.Location = new System.Drawing.Point(14, 28);
+            this.listBox.Name = "listBox";
+            this.listBox.Size = new System.Drawing.Size(120, 94);
+            this.listBox.TabIndex = 0;
             // 
-            // NikitaListBox
+            // ListBoxControl
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.Controls.Add(this.listBox1);
-            this.Name = "NikitaListBox";
+            this.Controls.Add(this.listBox);
+            this.Name = "ListBoxControl";
             this.ResumeLayout(false);
 
         }
 
         #endregion
 
-        private ListBox listBox1;
+        private ListBox listBox;
     }
 }
