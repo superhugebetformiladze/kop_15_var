@@ -35,7 +35,9 @@
             this.textBoxControl = new WinFormsControlLibraryS.TextBoxControl();
             this.buttonAddText = new System.Windows.Forms.Button();
             this.labelNumb = new System.Windows.Forms.Label();
-            this.labelCurrent = new System.Windows.Forms.Label();
+            this.dataGridViewControl1 = new WinFormsControlLibraryS.DataGridViewControl();
+            this.buttonClearDataGrid = new System.Windows.Forms.Button();
+            this.buttonSelectItem = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // listBoxControl
@@ -44,7 +46,7 @@
             this.listBoxControl.Name = "listBoxControl";
             this.listBoxControl.Size = new System.Drawing.Size(150, 150);
             this.listBoxControl.TabIndex = 0;
-            this.listBoxControl.ValueList = "";
+            this.listBoxControl.Load += new System.EventHandler(this.listBoxControl_Load);
             // 
             // buttonAdd
             // 
@@ -79,7 +81,6 @@
             this.textBoxControl.Name = "textBoxControl";
             this.textBoxControl.Size = new System.Drawing.Size(150, 161);
             this.textBoxControl.TabIndex = 6;
-            this.textBoxControl.SpecEvent += new System.EventHandler(this.ButtonAddText_Click);
             // 
             // buttonAddText
             // 
@@ -100,21 +101,41 @@
             this.labelNumb.TabIndex = 8;
             this.labelNumb.Text = "Число:";
             // 
-            // labelCurrent
+            // dataGridViewControl1
             // 
-            this.labelCurrent.AutoSize = true;
-            this.labelCurrent.Location = new System.Drawing.Point(89, 393);
-            this.labelCurrent.Name = "labelCurrent";
-            this.labelCurrent.Size = new System.Drawing.Size(47, 15);
-            this.labelCurrent.TabIndex = 9;
-            this.labelCurrent.Text = "Current";
+            this.dataGridViewControl1.Location = new System.Drawing.Point(501, 64);
+            this.dataGridViewControl1.Name = "dataGridViewControl1";
+            this.dataGridViewControl1.Size = new System.Drawing.Size(282, 183);
+            this.dataGridViewControl1.TabIndex = 10;
+            this.dataGridViewControl1.Load += new System.EventHandler(this.dataGridViewControl1_Load);
+            // 
+            // buttonClearDataGrid
+            // 
+            this.buttonClearDataGrid.Location = new System.Drawing.Point(596, 282);
+            this.buttonClearDataGrid.Name = "buttonClearDataGrid";
+            this.buttonClearDataGrid.Size = new System.Drawing.Size(97, 39);
+            this.buttonClearDataGrid.TabIndex = 11;
+            this.buttonClearDataGrid.Text = "Очистить";
+            this.buttonClearDataGrid.UseVisualStyleBackColor = true;
+            this.buttonClearDataGrid.Click += new System.EventHandler(this.buttonClearDataGrid_Click);
+            // 
+            // buttonSelectItem
+            // 
+            this.buttonSelectItem.Location = new System.Drawing.Point(186, 209);
+            this.buttonSelectItem.Name = "buttonSelectItem";
+            this.buttonSelectItem.Size = new System.Drawing.Size(97, 39);
+            this.buttonSelectItem.TabIndex = 12;
+            this.buttonSelectItem.Text = "Выделить";
+            this.buttonSelectItem.UseVisualStyleBackColor = true;
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
-            this.Controls.Add(this.labelCurrent);
+            this.Controls.Add(this.buttonSelectItem);
+            this.Controls.Add(this.buttonClearDataGrid);
+            this.Controls.Add(this.dataGridViewControl1);
             this.Controls.Add(this.labelNumb);
             this.Controls.Add(this.buttonAddText);
             this.Controls.Add(this.textBoxControl);
@@ -138,6 +159,8 @@
         private WinFormsControlLibraryS.TextBoxControl textBoxControl;
         private Button buttonAddText;
         private Label labelNumb;
-        private Label labelCurrent;
+        private WinFormsControlLibraryS.DataGridViewControl dataGridViewControl1;
+        private Button buttonClearDataGrid;
+        private Button buttonSelectItem;
     }
 }

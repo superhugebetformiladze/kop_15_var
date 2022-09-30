@@ -12,13 +12,21 @@ namespace WinFormsControlLibraryS
 {
     public partial class ListBoxControl : UserControl
     {
-        public string ValueList
+        public string SelectedItem
         {
+            get
+            {
+                if (listBox.SelectedItem == null)
+                {
+                    return string.Empty;
+                }
+
+                return listBox.SelectedItem.ToString();
+            }
             set
             {
-                listBox.Text = value;
+                listBox.SelectedItem = value;
             }
-            get { return listBox.Text; }
         }
 
         private void ListBox_SelectedChanged(object sender, System.EventArgs e)

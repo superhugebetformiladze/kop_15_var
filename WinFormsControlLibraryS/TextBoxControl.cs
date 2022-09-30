@@ -9,12 +9,13 @@ using System.Text;
 using System.Text.RegularExpressions;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using static System.Windows.Forms.VisualStyles.VisualStyleElement;
 
 namespace WinFormsControlLibraryS
 {
     public partial class TextBoxControl : UserControl
     {
-
+        private double _valueTextBox;
         public double? ValueTextBox
         {
             get
@@ -22,8 +23,7 @@ namespace WinFormsControlLibraryS
                 if (checkBoxNull.Checked) return null;
                 if (!CheckValueDouble())
                     throw new Exception("Ошибка, не число");
-                return Convert.ToDouble(textBox1.Text);
-
+                return _valueTextBox;
             }
             set
             {
@@ -65,7 +65,7 @@ namespace WinFormsControlLibraryS
             bool match = Regex.IsMatch(textBoxValue, string.Format(@"((\d+)(\,+)(\d*))$", CultureInfo.CurrentCulture.NumberFormat.NumberDecimalSeparator));
             if (match)
             {
-                ValueTextBox = Convert.ToDouble(textBoxValue);
+                _valueTextBox = Convert.ToDouble(textBoxValue);
                 return true;
             }
             return false;
