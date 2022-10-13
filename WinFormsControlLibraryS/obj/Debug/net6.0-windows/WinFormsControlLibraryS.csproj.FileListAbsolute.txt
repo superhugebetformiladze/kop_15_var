@@ -29,3 +29,4 @@ D:\5 уроков и классный час\копик\рабочая\WinFormsC
 D:\5 уроков и классный час\копик\рабочая\WinFormsControlLibraryS\obj\Debug\net6.0-windows\WinFormsControlLibraryS.pdb
 D:\5 уроков и классный час\копик\рабочая\WinFormsControlLibraryS\obj\Debug\net6.0-windows\ref\WinFormsControlLibraryS.dll
 D:\5 уроков и классный час\копик\рабочая\WinFormsControlLibraryS\obj\Debug\net6.0-windows\WinFormsControlLibraryS.DataGridViewControl.resources
+D:\учебный\копчик - маленький американский полицейский\финалочка\WinFormsControlLibraryS\obj\Debug\net6.0-windows\WinFormsControlLibraryS.DataGridViewControl.resources

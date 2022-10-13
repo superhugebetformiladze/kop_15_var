@@ -38,3 +38,9 @@ D:\5 уроков и классный час\копик\рабочая\CopView\o
 D:\5 уроков и классный час\копик\рабочая\CopView\obj\Debug\net6.0-windows\CopView.pdb
 D:\5 уроков и классный час\копик\рабочая\CopView\obj\Debug\net6.0-windows\CopView.genruntimeconfig.cache
 D:\5 уроков и классный час\копик\рабочая\CopView\obj\Debug\net6.0-windows\ref\CopView.dll
+D:\учебный\копчик - маленький американский полицейский\финалочка\CopView\obj\Debug\net6.0-windows\CopView.Form2.resources
+D:\учебный\копчик - маленький американский полицейский\финалочка\CopView\bin\Debug\net6.0-windows\DocumentFormat.OpenXml.dll
+D:\учебный\копчик - маленький американский полицейский\финалочка\CopView\bin\Debug\net6.0-windows\Xceed.Document.NET5.dll
+D:\учебный\копчик - маленький американский полицейский\финалочка\CopView\bin\Debug\net6.0-windows\Xceed.Words.NET5.dll
+D:\учебный\копчик - маленький американский полицейский\финалочка\CopView\bin\Debug\net6.0-windows\NonVisualComponentLibraryS.dll
+D:\учебный\копчик - маленький американский полицейский\финалочка\CopView\bin\Debug\net6.0-windows\NonVisualComponentLibraryS.pdb

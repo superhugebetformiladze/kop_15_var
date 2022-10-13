@@ -1,24 +1,24 @@
 {
   "format": 1,
   "restore": {
-    "D:\\5 уроков и классный час\\копик\\рабочая\\CopView\\CopView.csproj": {}
+    "D:\\учебный\\копчик - маленький американский полицейский\\финалочка\\CopView\\CopView.csproj": {}
   },
   "projects": {
-    "D:\\5 уроков и классный час\\копик\\рабочая\\CopView\\CopView.csproj": {
+    "D:\\учебный\\копчик - маленький американский полицейский\\финалочка\\CopView\\CopView.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\5 уроков и классный час\\копик\\рабочая\\CopView\\CopView.csproj",
+        "projectUniqueName": "D:\\учебный\\копчик - маленький американский полицейский\\финалочка\\CopView\\CopView.csproj",
         "projectName": "CopView",
-        "projectPath": "D:\\5 уроков и классный час\\копик\\рабочая\\CopView\\CopView.csproj",
-        "packagesPath": "C:\\Users\\Daddy\\.nuget\\packages\\",
-        "outputPath": "D:\\5 уроков и классный час\\копик\\рабочая\\CopView\\obj\\",
+        "projectPath": "D:\\учебный\\копчик - маленький американский полицейский\\финалочка\\CopView\\CopView.csproj",
+        "packagesPath": "C:\\Users\\Никита\\.nuget\\packages\\",
+        "outputPath": "D:\\учебный\\копчик - маленький американский полицейский\\финалочка\\CopView\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Daddy\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Никита\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
-          "net6.0-windows"
+          "net6.0-windows7.0"
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
@@ -28,8 +28,11 @@
           "net6.0-windows7.0": {
             "targetAlias": "net6.0-windows",
             "projectReferences": {
-              "D:\\5 уроков и классный час\\копик\\рабочая\\WinFormsControlLibraryS\\WinFormsControlLibraryS.csproj": {
-                "projectPath": "D:\\5 уроков и классный час\\копик\\рабочая\\WinFormsControlLibraryS\\WinFormsControlLibraryS.csproj"
+              "D:\\учебный\\копчик - маленький американский полицейский\\финалочка\\NonVisualLibraryS\\NonVisualComponentLibraryS.csproj": {
+                "projectPath": "D:\\учебный\\копчик - маленький американский полицейский\\финалочка\\NonVisualLibraryS\\NonVisualComponentLibraryS.csproj"
+              },
+              "D:\\учебный\\копчик - маленький американский полицейский\\финалочка\\WinFormsControlLibraryS\\WinFormsControlLibraryS.csproj": {
+                "projectPath": "D:\\учебный\\копчик - маленький американский полицейский\\финалочка\\WinFormsControlLibraryS\\WinFormsControlLibraryS.csproj"
               }
             }
           }
@@ -49,8 +52,7 @@
             "net47",
             "net471",
             "net472",
-            "net48",
-            "net481"
+            "net48"
           ],
           "assetTargetFallback": true,
           "warn": true,
@@ -62,25 +64,92 @@
               "privateAssets": "none"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.401\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.201\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "D:\\5 уроков и классный час\\копик\\рабочая\\WinFormsControlLibraryS\\WinFormsControlLibraryS.csproj": {
+    "D:\\учебный\\копчик - маленький американский полицейский\\финалочка\\NonVisualLibraryS\\NonVisualComponentLibraryS.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\5 уроков и классный час\\копик\\рабочая\\WinFormsControlLibraryS\\WinFormsControlLibraryS.csproj",
-        "projectName": "WinFormsControlLibraryS",
-        "projectPath": "D:\\5 уроков и классный час\\копик\\рабочая\\WinFormsControlLibraryS\\WinFormsControlLibraryS.csproj",
-        "packagesPath": "C:\\Users\\Daddy\\.nuget\\packages\\",
-        "outputPath": "D:\\5 уроков и классный час\\копик\\рабочая\\WinFormsControlLibraryS\\obj\\",
+        "projectUniqueName": "D:\\учебный\\копчик - маленький американский полицейский\\финалочка\\NonVisualLibraryS\\NonVisualComponentLibraryS.csproj",
+        "projectName": "NonVisualComponentLibraryS",
+        "projectPath": "D:\\учебный\\копчик - маленький американский полицейский\\финалочка\\NonVisualLibraryS\\NonVisualComponentLibraryS.csproj",
+        "packagesPath": "C:\\Users\\Никита\\.nuget\\packages\\",
+        "outputPath": "D:\\учебный\\копчик - маленький американский полицейский\\финалочка\\NonVisualLibraryS\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Daddy\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Никита\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
-          "net6.0-windows"
+          "net6.0-windows7.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0-windows7.0": {
+            "targetAlias": "net6.0-windows",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0-windows7.0": {
+          "targetAlias": "net6.0-windows",
+          "dependencies": {
+            "DocX": {
+              "target": "Package",
+              "version": "[2.3.0, )"
+            },
+            "DocumentFormat.OpenXml": {
+              "target": "Package",
+              "version": "[2.18.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            },
+            "Microsoft.WindowsDesktop.App.WindowsForms": {
+              "privateAssets": "none"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.201\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\учебный\\копчик - маленький американский полицейский\\финалочка\\WinFormsControlLibraryS\\WinFormsControlLibraryS.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\учебный\\копчик - маленький американский полицейский\\финалочка\\WinFormsControlLibraryS\\WinFormsControlLibraryS.csproj",
+        "projectName": "WinFormsControlLibraryS",
+        "projectPath": "D:\\учебный\\копчик - маленький американский полицейский\\финалочка\\WinFormsControlLibraryS\\WinFormsControlLibraryS.csproj",
+        "packagesPath": "C:\\Users\\Никита\\.nuget\\packages\\",
+        "outputPath": "D:\\учебный\\копчик - маленький американский полицейский\\финалочка\\WinFormsControlLibraryS\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Никита\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0-windows7.0"
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
@@ -107,8 +176,7 @@
             "net47",
             "net471",
             "net472",
-            "net48",
-            "net481"
+            "net48"
           ],
           "assetTargetFallback": true,
           "warn": true,
@@ -120,7 +188,7 @@
               "privateAssets": "none"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.401\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.201\\RuntimeIdentifierGraph.json"
         }
       }
     }

@@ -1,8 +1,15 @@
 {
   "version": 2,
-  "dgSpecHash": "5/3Zon60HO353YiHKGgV2ik4I+uVecVL8oZUYPG3uqlagvXhn73PctBplsLDLaroxloR3dBHljI/8sd3JE6GDA==",
+  "dgSpecHash": "Pe7nNbkUxLrXYiJD6PqUQdMZF258FGqocsIgXL09SWqsGKWV5O1qKdOeApiiZbARIgcWv1YnKVs+n/f2VWPrBg==",
   "success": true,
-  "projectFilePath": "D:\\5 уроков и классный час\\копик\\рабочая\\CopView\\CopView.csproj",
-  "expectedPackageFiles": [],
+  "projectFilePath": "D:\\учебный\\копчик - маленький американский полицейский\\финалочка\\CopView\\CopView.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Никита\\.nuget\\packages\\documentformat.openxml\\2.18.0\\documentformat.openxml.2.18.0.nupkg.sha512",
+    "C:\\Users\\Никита\\.nuget\\packages\\docx\\2.3.0\\docx.2.3.0.nupkg.sha512",
+    "C:\\Users\\Никита\\.nuget\\packages\\microsoft.netcore.platforms\\5.0.0\\microsoft.netcore.platforms.5.0.0.nupkg.sha512",
+    "C:\\Users\\Никита\\.nuget\\packages\\microsoft.win32.systemevents\\5.0.0\\microsoft.win32.systemevents.5.0.0.nupkg.sha512",
+    "C:\\Users\\Никита\\.nuget\\packages\\system.drawing.common\\5.0.2\\system.drawing.common.5.0.2.nupkg.sha512",
+    "C:\\Users\\Никита\\.nuget\\packages\\system.io.packaging\\4.7.0\\system.io.packaging.4.7.0.nupkg.sha512"
+  ],
   "logs": []
 }

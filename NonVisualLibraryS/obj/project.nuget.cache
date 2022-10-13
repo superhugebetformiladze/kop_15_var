@@ -1,0 +1,15 @@
+{
+  "version": 2,
+  "dgSpecHash": "aMGl4Y7VX/12Nfj5BazQP8GjMCvCh5n+FGGhfVfA3xaUH7PUr3DuaYD9htPW0OQU56rCXSLnn8LCMizewiM+Dg==",
+  "success": true,
+  "projectFilePath": "D:\\учебный\\копчик - маленький американский полицейский\\финалочка\\NonVisualLibraryS\\NonVisualComponentLibraryS.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Никита\\.nuget\\packages\\documentformat.openxml\\2.18.0\\documentformat.openxml.2.18.0.nupkg.sha512",
+    "C:\\Users\\Никита\\.nuget\\packages\\docx\\2.3.0\\docx.2.3.0.nupkg.sha512",
+    "C:\\Users\\Никита\\.nuget\\packages\\microsoft.netcore.platforms\\5.0.0\\microsoft.netcore.platforms.5.0.0.nupkg.sha512",
+    "C:\\Users\\Никита\\.nuget\\packages\\microsoft.win32.systemevents\\5.0.0\\microsoft.win32.systemevents.5.0.0.nupkg.sha512",
+    "C:\\Users\\Никита\\.nuget\\packages\\system.drawing.common\\5.0.2\\system.drawing.common.5.0.2.nupkg.sha512",
+    "C:\\Users\\Никита\\.nuget\\packages\\system.io.packaging\\4.7.0\\system.io.packaging.4.7.0.nupkg.sha512"
+  ],
+  "logs": []
+}
