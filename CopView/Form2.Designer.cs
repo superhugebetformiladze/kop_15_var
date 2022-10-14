@@ -28,8 +28,13 @@
         /// </summary>
         private void InitializeComponent()
         {
+            this.components = new System.ComponentModel.Container();
             this.button_SimpleTable = new System.Windows.Forms.Button();
             this.button_ComplicatedTable = new System.Windows.Forms.Button();
+            this.button_Gistagram = new System.Windows.Forms.Button();
+            this.gistagramWord = new NonVisualComponentLibraryS.GistagramWord(this.components);
+            this.wordComplicatedComponent = new NonVisualComponentLibraryS.WordComplicatedComponent(this.components);
+            this.wordSimpleComponent = new NonVisualComponentLibraryS.WordSimpleComponent();
             this.SuspendLayout();
             // 
             // button_SimpleTable
@@ -54,11 +59,23 @@
             this.button_ComplicatedTable.UseVisualStyleBackColor = true;
             this.button_ComplicatedTable.Click += new System.EventHandler(this.buttonComplicatedTable_Click);
             // 
+            // button_Gistagram
+            // 
+            this.button_Gistagram.Font = new System.Drawing.Font("Segoe UI", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.button_Gistagram.Location = new System.Drawing.Point(107, 304);
+            this.button_Gistagram.Name = "button_Gistagram";
+            this.button_Gistagram.Size = new System.Drawing.Size(281, 80);
+            this.button_Gistagram.TabIndex = 2;
+            this.button_Gistagram.Text = "гистограмма ворд";
+            this.button_Gistagram.UseVisualStyleBackColor = true;
+            this.button_Gistagram.Click += new System.EventHandler(this.button_Gistagram_Click);
+            // 
             // Form2
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(510, 456);
+            this.Controls.Add(this.button_Gistagram);
             this.Controls.Add(this.button_ComplicatedTable);
             this.Controls.Add(this.button_SimpleTable);
             this.Name = "Form2";
@@ -70,8 +87,10 @@
         #endregion
 
         private Button button_SimpleTable;
-        private NonVisualComponentLibraryS.WordSimpleComponent wordSimpleComponent;
-        private NonVisualComponentLibraryS.WordComplicatedComponent wordComplicatedComponent;
         private Button button_ComplicatedTable;
+        private Button button_Gistagram;
+        private NonVisualComponentLibraryS.GistagramWord gistagramWord;
+        private NonVisualComponentLibraryS.WordComplicatedComponent wordComplicatedComponent;
+        private NonVisualComponentLibraryS.WordSimpleComponent wordSimpleComponent;
     }
 }

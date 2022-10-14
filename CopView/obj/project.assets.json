@@ -8,10 +8,14 @@
           "System.IO.Packaging": "4.7.0"
         },
         "compile": {
-          "lib/netstandard2.0/DocumentFormat.OpenXml.dll": {}
+          "lib/netstandard2.0/DocumentFormat.OpenXml.dll": {
+            "related": ".xml"
+          }
         },
         "runtime": {
-          "lib/netstandard2.0/DocumentFormat.OpenXml.dll": {}
+          "lib/netstandard2.0/DocumentFormat.OpenXml.dll": {
+            "related": ".xml"
+          }
         }
       },
       "DocX/2.3.0": {
@@ -44,10 +48,14 @@
           "Microsoft.NETCore.Platforms": "5.0.0"
         },
         "compile": {
-          "ref/netstandard2.0/_._": {}
+          "ref/netstandard2.0/_._": {
+            "related": ".xml"
+          }
         },
         "runtime": {
-          "lib/netstandard2.0/Microsoft.Win32.SystemEvents.dll": {}
+          "lib/netstandard2.0/Microsoft.Win32.SystemEvents.dll": {
+            "related": ".xml"
+          }
         },
         "runtimeTargets": {
           "runtimes/win/lib/netcoreapp3.0/Microsoft.Win32.SystemEvents.dll": {
@@ -62,10 +70,14 @@
           "Microsoft.Win32.SystemEvents": "5.0.0"
         },
         "compile": {
-          "ref/netcoreapp3.0/System.Drawing.Common.dll": {}
+          "ref/netcoreapp3.0/System.Drawing.Common.dll": {
+            "related": ".xml"
+          }
         },
         "runtime": {
-          "lib/netcoreapp3.0/System.Drawing.Common.dll": {}
+          "lib/netcoreapp3.0/System.Drawing.Common.dll": {
+            "related": ".xml"
+          }
         },
         "runtimeTargets": {
           "runtimes/unix/lib/netcoreapp3.0/System.Drawing.Common.dll": {
@@ -81,10 +93,14 @@
       "System.IO.Packaging/4.7.0": {
         "type": "package",
         "compile": {
-          "ref/netstandard2.0/System.IO.Packaging.dll": {}
+          "ref/netstandard2.0/System.IO.Packaging.dll": {
+            "related": ".xml"
+          }
         },
         "runtime": {
-          "lib/netstandard2.0/System.IO.Packaging.dll": {}
+          "lib/netstandard2.0/System.IO.Packaging.dll": {
+            "related": ".xml"
+          }
         }
       },
       "NonVisualComponentLibraryS/1.0.0": {
@@ -294,23 +310,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Никита\\.nuget\\packages\\": {}
+    "C:\\Users\\Daddy\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\учебный\\копчик - маленький американский полицейский\\финалочка\\CopView\\CopView.csproj",
+      "projectUniqueName": "D:\\5 уроков и классный час\\копик\\рабочая\\CopView\\CopView.csproj",
       "projectName": "CopView",
-      "projectPath": "D:\\учебный\\копчик - маленький американский полицейский\\финалочка\\CopView\\CopView.csproj",
-      "packagesPath": "C:\\Users\\Никита\\.nuget\\packages\\",
-      "outputPath": "D:\\учебный\\копчик - маленький американский полицейский\\финалочка\\CopView\\obj\\",
+      "projectPath": "D:\\5 уроков и классный час\\копик\\рабочая\\CopView\\CopView.csproj",
+      "packagesPath": "C:\\Users\\Daddy\\.nuget\\packages\\",
+      "outputPath": "D:\\5 уроков и классный час\\копик\\рабочая\\CopView\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\Никита\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Daddy\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
-        "net6.0-windows7.0"
+        "net6.0-windows"
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
@@ -320,11 +336,11 @@
         "net6.0-windows7.0": {
           "targetAlias": "net6.0-windows",
           "projectReferences": {
-            "D:\\учебный\\копчик - маленький американский полицейский\\финалочка\\NonVisualLibraryS\\NonVisualComponentLibraryS.csproj": {
-              "projectPath": "D:\\учебный\\копчик - маленький американский полицейский\\финалочка\\NonVisualLibraryS\\NonVisualComponentLibraryS.csproj"
+            "D:\\5 уроков и классный час\\копик\\рабочая\\NonVisualLibraryS\\NonVisualComponentLibraryS.csproj": {
+              "projectPath": "D:\\5 уроков и классный час\\копик\\рабочая\\NonVisualLibraryS\\NonVisualComponentLibraryS.csproj"
             },
-            "D:\\учебный\\копчик - маленький американский полицейский\\финалочка\\WinFormsControlLibraryS\\WinFormsControlLibraryS.csproj": {
-              "projectPath": "D:\\учебный\\копчик - маленький американский полицейский\\финалочка\\WinFormsControlLibraryS\\WinFormsControlLibraryS.csproj"
+            "D:\\5 уроков и классный час\\копик\\рабочая\\WinFormsControlLibraryS\\WinFormsControlLibraryS.csproj": {
+              "projectPath": "D:\\5 уроков и классный час\\копик\\рабочая\\WinFormsControlLibraryS\\WinFormsControlLibraryS.csproj"
             }
           }
         }
@@ -344,7 +360,8 @@
           "net47",
           "net471",
           "net472",
-          "net48"
+          "net48",
+          "net481"
         ],
         "assetTargetFallback": true,
         "warn": true,
@@ -356,7 +373,7 @@
             "privateAssets": "none"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.201\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.401\\RuntimeIdentifierGraph.json"
       }
     }
   }

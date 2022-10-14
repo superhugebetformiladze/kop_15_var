@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 namespace NonVisualComponentLibraryS.HelperModels
 {
     public class ComponentWordTableConfig<T>
-    {
+    {       
         public WordInfo WordInfo { get; set; }
 
         public List<int> ColumnsWidth { get; set; }
@@ -15,5 +15,15 @@ namespace NonVisualComponentLibraryS.HelperModels
         public List<string> Headers { get; set; }
         public List<string> PropertiesQueue { get; set; }
         public List<T> ListData { get; set; }
+
+       public ComponentWordTableConfig(WordInfo wordInfo, List<int> columnsWidth, List<int> rowsHeight, List<string> headers, List<string> propertiesQueue, List<T> listData)
+        {
+            WordInfo = wordInfo;
+            ColumnsWidth = columnsWidth;
+            RowsHeight = rowsHeight;
+            Headers = headers;
+            PropertiesQueue = propertiesQueue;
+            ListData = listData;
+        }
     }
 }

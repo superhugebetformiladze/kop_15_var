@@ -1,14 +1,4 @@
-﻿using NonVisualComponentLibraryS;
-using NonVisualComponentLibraryS.HelperModels;
-using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
-using System.Drawing;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using System.Windows.Forms;
+﻿using NonVisualComponentLibraryS.HelperModels;
 
 namespace CopView
 {
@@ -32,7 +22,7 @@ namespace CopView
                 }
             }
             List<string[,]> datas = new List<string[,]>();
-            string[,] data = new string[,] { { "Anya", "Vasya" }, { "Dasha", "Mark" } };
+            string[,] data = new string[,] { { "товар", "цена" }, { "яблоко", "10 рублей" } };
             datas.Add(data);
             wordSimpleComponent.SaveData(fileName, "otchet", datas);
         }
@@ -50,20 +40,48 @@ namespace CopView
                    MessageBoxIcon.Information);
                 }
             }
-            wordComplicatedComponent.SaveData<TestData>(new ComponentWordTableConfig<TestData>
+            WordInfo wordInfo = new WordInfo(fileName, "Тестовая таблица");
+            ComponentWordTableConfig<TestData> config = new ComponentWordTableConfig<TestData>(wordInfo, 
+                data.getColumnsWidth(2, 2400), data.getRowsHeight(5, 1000), data.GetHeader(2), data.GetHeader(2), data.GetTests());
+
+            /*wordComplicatedComponent.SaveData<TestData>(new ComponentWordTableConfig<TestData>
             {
                 WordInfo = new WordInfo
                 {
                     FileName = fileName,
                     Title = "Тестовая данная"
-                },
+                }
+                WordInfo = wordInfo,
                 ColumnsWidth = data.getColumnsWidth(2, 2400),
                 RowsHeight = data.getRowsHeight(5, 1000),
                 Headers = data.GetHeader(2),
                 PropertiesQueue = data.GetHeader(2),
                 ListData = data.GetTests()
-            });
+            });*/
+            wordComplicatedComponent.SaveData<TestData>(config);
+
         }
 
+        private void button_Gistagram_Click(object sender, EventArgs e)
+        {
+            string fileName = "";
+            using (var dialog = new SaveFileDialog { Filter = "docx|*.docx" })
+            {
+                if (dialog.ShowDialog() == DialogResult.OK)
+                {
+                    fileName = dialog.FileName.ToString();
+                    MessageBox.Show("Выполнено", "Успех", MessageBoxButtons.OK,
+                   MessageBoxIcon.Information);
+                }
+            }
+            List<TestData> data = new List<TestData>();
+            data.Add(new TestData { name = "яблоки", value = 1 });
+            data.Add(new TestData { name = "арбузы", value = 51 });
+            data.Add(new TestData { name = "печенье", value = 11 });
+            data.Add(new TestData { name = "суп", value = 43 });
+            data.Add(new TestData { name = "каша", value = 32 });
+            LocationLegend legend = new LocationLegend();
+            gistagramWord.ReportSaveGistogram(fileName, "Крутость продуктов в школе", "продукты", legend, data);
+        }
     }
 }

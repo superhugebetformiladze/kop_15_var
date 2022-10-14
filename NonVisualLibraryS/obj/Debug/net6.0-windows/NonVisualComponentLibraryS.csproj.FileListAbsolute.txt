@@ -10,3 +10,15 @@ D:\учебный\копчик - маленький американский п�
 D:\учебный\копчик - маленький американский полицейский\финалочка\NonVisualLibraryS\obj\Debug\net6.0-windows\refint\NonVisualComponentLibraryS.dll
 D:\учебный\копчик - маленький американский полицейский\финалочка\NonVisualLibraryS\obj\Debug\net6.0-windows\NonVisualComponentLibraryS.pdb
 D:\учебный\копчик - маленький американский полицейский\финалочка\NonVisualLibraryS\obj\Debug\net6.0-windows\ref\NonVisualComponentLibraryS.dll
+D:\5 уроков и классный час\копик\рабочая\NonVisualLibraryS\bin\Debug\net6.0-windows\NonVisualComponentLibraryS.deps.json
+D:\5 уроков и классный час\копик\рабочая\NonVisualLibraryS\bin\Debug\net6.0-windows\NonVisualComponentLibraryS.dll
+D:\5 уроков и классный час\копик\рабочая\NonVisualLibraryS\bin\Debug\net6.0-windows\NonVisualComponentLibraryS.pdb
+D:\5 уроков и классный час\копик\рабочая\NonVisualLibraryS\obj\Debug\net6.0-windows\NonVisualComponentLibraryS.csproj.AssemblyReference.cache
+D:\5 уроков и классный час\копик\рабочая\NonVisualLibraryS\obj\Debug\net6.0-windows\NonVisualComponentLibraryS.GeneratedMSBuildEditorConfig.editorconfig
+D:\5 уроков и классный час\копик\рабочая\NonVisualLibraryS\obj\Debug\net6.0-windows\NonVisualComponentLibraryS.AssemblyInfoInputs.cache
+D:\5 уроков и классный час\копик\рабочая\NonVisualLibraryS\obj\Debug\net6.0-windows\NonVisualComponentLibraryS.AssemblyInfo.cs
+D:\5 уроков и классный час\копик\рабочая\NonVisualLibraryS\obj\Debug\net6.0-windows\NonVisualComponentLibraryS.csproj.CoreCompileInputs.cache
+D:\5 уроков и классный час\копик\рабочая\NonVisualLibraryS\obj\Debug\net6.0-windows\NonVisualComponentLibraryS.dll
+D:\5 уроков и классный час\копик\рабочая\NonVisualLibraryS\obj\Debug\net6.0-windows\refint\NonVisualComponentLibraryS.dll
+D:\5 уроков и классный час\копик\рабочая\NonVisualLibraryS\obj\Debug\net6.0-windows\NonVisualComponentLibraryS.pdb
+D:\5 уроков и классный час\копик\рабочая\NonVisualLibraryS\obj\Debug\net6.0-windows\ref\NonVisualComponentLibraryS.dll

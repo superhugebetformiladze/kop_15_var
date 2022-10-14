@@ -1,4 +1,5 @@
 ﻿using NonVisualComponentLibraryS.HelperModels;
+
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -84,11 +85,11 @@ namespace CopView
 
         public DataClass()
         {
-            testsData.Add(new TestData { name = "csscdscd", value = 1 });
-            testsData.Add(new TestData { name = "aaa", value = 51 });
-            testsData.Add(new TestData { name = "sdcdscd", value = 11 });
-            testsData.Add(new TestData { name = "q234", value = 43 });
-            testsData.Add(new TestData { name = "Ty", value = 32 });
+            testsData.Add(new TestData { name = "название", value = 1 });
+            testsData.Add(new TestData { name = "цена", value = 51 });
+            testsData.Add(new TestData { name = "вес", value = 11 });
+            testsData.Add(new TestData { name = "количество", value = 43 });
+            testsData.Add(new TestData { name = "код товара", value = 32 });
         }
     }
 }
