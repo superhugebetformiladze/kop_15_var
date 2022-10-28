@@ -35,7 +35,7 @@
             // checkBoxNull
             // 
             this.checkBoxNull.AutoSize = true;
-            this.checkBoxNull.Location = new System.Drawing.Point(32, 115);
+            this.checkBoxNull.Location = new System.Drawing.Point(3, 29);
             this.checkBoxNull.Name = "checkBoxNull";
             this.checkBoxNull.Size = new System.Drawing.Size(48, 19);
             this.checkBoxNull.TabIndex = 0;
@@ -44,9 +44,12 @@
             // 
             // textBox1
             // 
-            this.textBox1.Location = new System.Drawing.Point(32, 39);
+            this.textBox1.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.textBox1.Location = new System.Drawing.Point(0, 0);
             this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(100, 23);
+            this.textBox1.Size = new System.Drawing.Size(144, 23);
             this.textBox1.TabIndex = 1;
             // 
             // TextBoxControl
@@ -56,6 +59,7 @@
             this.Controls.Add(this.textBox1);
             this.Controls.Add(this.checkBoxNull);
             this.Name = "TextBoxControl";
+            this.Size = new System.Drawing.Size(144, 59);
             this.ResumeLayout(false);
             this.PerformLayout();
 

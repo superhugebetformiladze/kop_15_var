@@ -1,4 +1,4 @@
-﻿using NonVisualComponentLibraryS.HelperModels;
+﻿using NonVisualComponentsNETFramework.HelperModels;
 
 namespace CopView
 {

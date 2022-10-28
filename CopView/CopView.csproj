@@ -9,7 +9,7 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\NonVisualLibraryS\NonVisualComponentLibraryS.csproj" />
+    <ProjectReference Include="..\NonVisualComponentsNETFramework\NonVisualComponentsNETFramework.csproj" />
     <ProjectReference Include="..\WinFormsControlLibraryS\WinFormsControlLibraryS.csproj" />
   </ItemGroup>
 

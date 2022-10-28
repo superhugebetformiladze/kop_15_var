@@ -33,11 +33,12 @@
             // 
             // listBox
             // 
+            this.listBox.Dock = System.Windows.Forms.DockStyle.Fill;
             this.listBox.FormattingEnabled = true;
             this.listBox.ItemHeight = 15;
-            this.listBox.Location = new System.Drawing.Point(14, 28);
+            this.listBox.Location = new System.Drawing.Point(0, 0);
             this.listBox.Name = "listBox";
-            this.listBox.Size = new System.Drawing.Size(120, 94);
+            this.listBox.Size = new System.Drawing.Size(226, 130);
             this.listBox.TabIndex = 0;
             // 
             // ListBoxControl
@@ -46,6 +47,7 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.Controls.Add(this.listBox);
             this.Name = "ListBoxControl";
+            this.Size = new System.Drawing.Size(226, 130);
             this.ResumeLayout(false);
 
         }

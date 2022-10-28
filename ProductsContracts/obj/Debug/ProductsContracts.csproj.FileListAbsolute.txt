@@ -1,0 +1,6 @@
+D:\учебный\копчик - маленький американский полицейский\финалочка\ProductsContracts\bin\Debug\ProductsContracts.dll
+D:\учебный\копчик - маленький американский полицейский\финалочка\ProductsContracts\bin\Debug\ProductsContracts.pdb
+D:\учебный\копчик - маленький американский полицейский\финалочка\ProductsContracts\obj\Debug\ProductsContracts.csproj.AssemblyReference.cache
+D:\учебный\копчик - маленький американский полицейский\финалочка\ProductsContracts\obj\Debug\ProductsContracts.csproj.CoreCompileInputs.cache
+D:\учебный\копчик - маленький американский полицейский\финалочка\ProductsContracts\obj\Debug\ProductsContracts.dll
+D:\учебный\копчик - маленький американский полицейский\финалочка\ProductsContracts\obj\Debug\ProductsContracts.pdb

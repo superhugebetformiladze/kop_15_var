@@ -7,7 +7,19 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WinFormsControlLibraryS", "
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CopView", "CopView\CopView.csproj", "{777E7BA6-0172-4380-9C0C-C9B394E391B4}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NonVisualComponentLibraryS", "NonVisualLibraryS\NonVisualComponentLibraryS.csproj", "{EADAF0C1-80E6-4FB4-A183-B6BEE8D41159}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NonVisualComponentLibraryS", "NonVisualLibraryS\NonVisualComponentLibraryS.csproj", "{EADAF0C1-80E6-4FB4-A183-B6BEE8D41159}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VisualComponentsNETFramework", "VisualComponentsNETFramework\VisualComponentsNETFramework.csproj", "{BEA1FAE9-D698-487D-AE5E-6D69E29ED573}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NonVisualComponentsNETFramework", "NonVisualComponentsNETFramework\NonVisualComponentsNETFramework.csproj", "{8B4E736C-727C-41F9-A272-6CB462D1DD0B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProductsContracts", "ProductsContracts\ProductsContracts.csproj", "{119DBADA-AD66-40BA-9EB3-D5F96566D151}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DatabaseImplements", "DatabaseImplements\DatabaseImplements.csproj", "{4790FD80-61A4-4581-89BB-599AA3488567}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Logic", "Logic\Logic.csproj", "{DCDDD165-CF81-4812-8AF2-A60ACABC1964}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ViewProduct", "ViewProduct\ViewProduct.csproj", "{02188AA8-34AF-4BEB-8D6F-9ABACD5C5844}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -27,6 +39,30 @@ Global
 		{EADAF0C1-80E6-4FB4-A183-B6BEE8D41159}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{EADAF0C1-80E6-4FB4-A183-B6BEE8D41159}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{EADAF0C1-80E6-4FB4-A183-B6BEE8D41159}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BEA1FAE9-D698-487D-AE5E-6D69E29ED573}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BEA1FAE9-D698-487D-AE5E-6D69E29ED573}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BEA1FAE9-D698-487D-AE5E-6D69E29ED573}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BEA1FAE9-D698-487D-AE5E-6D69E29ED573}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8B4E736C-727C-41F9-A272-6CB462D1DD0B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8B4E736C-727C-41F9-A272-6CB462D1DD0B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8B4E736C-727C-41F9-A272-6CB462D1DD0B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8B4E736C-727C-41F9-A272-6CB462D1DD0B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{119DBADA-AD66-40BA-9EB3-D5F96566D151}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{119DBADA-AD66-40BA-9EB3-D5F96566D151}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{119DBADA-AD66-40BA-9EB3-D5F96566D151}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{119DBADA-AD66-40BA-9EB3-D5F96566D151}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4790FD80-61A4-4581-89BB-599AA3488567}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4790FD80-61A4-4581-89BB-599AA3488567}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4790FD80-61A4-4581-89BB-599AA3488567}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4790FD80-61A4-4581-89BB-599AA3488567}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DCDDD165-CF81-4812-8AF2-A60ACABC1964}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DCDDD165-CF81-4812-8AF2-A60ACABC1964}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DCDDD165-CF81-4812-8AF2-A60ACABC1964}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DCDDD165-CF81-4812-8AF2-A60ACABC1964}.Release|Any CPU.Build.0 = Release|Any CPU
+		{02188AA8-34AF-4BEB-8D6F-9ABACD5C5844}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{02188AA8-34AF-4BEB-8D6F-9ABACD5C5844}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{02188AA8-34AF-4BEB-8D6F-9ABACD5C5844}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{02188AA8-34AF-4BEB-8D6F-9ABACD5C5844}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

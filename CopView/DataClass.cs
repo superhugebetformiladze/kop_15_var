@@ -1,4 +1,4 @@
-﻿using NonVisualComponentLibraryS.HelperModels;
+﻿using NonVisualComponentsNETFramework.HelperModels;
 
 using System;
 using System.Collections.Generic;

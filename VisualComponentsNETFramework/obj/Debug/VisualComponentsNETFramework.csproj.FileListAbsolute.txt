@@ -1,0 +1,10 @@
+D:\учебный\копчик - маленький американский полицейский\финалочка\VisualComponentsNETFramework\obj\Debug\VisualComponentsNETFramework.csproj.AssemblyReference.cache
+D:\учебный\копчик - маленький американский полицейский\финалочка\VisualComponentsNETFramework\obj\Debug\VisualComponentsNETFramework.csproj.CoreCompileInputs.cache
+D:\учебный\копчик - маленький американский полицейский\финалочка\VisualComponentsNETFramework\bin\Debug\VisualComponentsNETFramework.dll
+D:\учебный\копчик - маленький американский полицейский\финалочка\VisualComponentsNETFramework\bin\Debug\VisualComponentsNETFramework.pdb
+D:\учебный\копчик - маленький американский полицейский\финалочка\VisualComponentsNETFramework\obj\Debug\VisualComponentsNETFramework.dll
+D:\учебный\копчик - маленький американский полицейский\финалочка\VisualComponentsNETFramework\obj\Debug\VisualComponentsNETFramework.pdb
+D:\учебный\копчик - маленький американский полицейский\финалочка\VisualComponentsNETFramework\obj\Debug\VisualComponentsNETFramework.DataGridViewControl.resources
+D:\учебный\копчик - маленький американский полицейский\финалочка\VisualComponentsNETFramework\obj\Debug\VisualComponentsNETFramework.ListBoxControl.resources
+D:\учебный\копчик - маленький американский полицейский\финалочка\VisualComponentsNETFramework\obj\Debug\VisualComponentsNETFramework.TextBoxControl.resources
+D:\учебный\копчик - маленький американский полицейский\финалочка\VisualComponentsNETFramework\obj\Debug\VisualComponentsNETFramework.csproj.GenerateResource.cache

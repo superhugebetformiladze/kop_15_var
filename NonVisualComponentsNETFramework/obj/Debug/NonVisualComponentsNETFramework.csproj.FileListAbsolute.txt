@@ -1,0 +1,11 @@
+D:\учебный\копчик - маленький американский полицейский\финалочка\NonVisualComponentsNETFramework\obj\Debug\NonVisualComponentsNETFramework.csproj.AssemblyReference.cache
+D:\учебный\копчик - маленький американский полицейский\финалочка\NonVisualComponentsNETFramework\obj\Debug\NonVisualComponentsNETFramework.csproj.CoreCompileInputs.cache
+D:\учебный\копчик - маленький американский полицейский\финалочка\NonVisualComponentsNETFramework\bin\Debug\NonVisualComponentsNETFramework.dll
+D:\учебный\копчик - маленький американский полицейский\финалочка\NonVisualComponentsNETFramework\bin\Debug\NonVisualComponentsNETFramework.pdb
+D:\учебный\копчик - маленький американский полицейский\финалочка\NonVisualComponentsNETFramework\bin\Debug\DocumentFormat.OpenXml.dll
+D:\учебный\копчик - маленький американский полицейский\финалочка\NonVisualComponentsNETFramework\bin\Debug\Xceed.Document.NET.dll
+D:\учебный\копчик - маленький американский полицейский\финалочка\NonVisualComponentsNETFramework\bin\Debug\Xceed.Words.NET.dll
+D:\учебный\копчик - маленький американский полицейский\финалочка\NonVisualComponentsNETFramework\bin\Debug\DocumentFormat.OpenXml.xml
+D:\учебный\копчик - маленький американский полицейский\финалочка\NonVisualComponentsNETFramework\obj\Debug\NonVisualComponentsNETFramework.csproj.CopyComplete
+D:\учебный\копчик - маленький американский полицейский\финалочка\NonVisualComponentsNETFramework\obj\Debug\NonVisualComponentsNETFramework.dll
+D:\учебный\копчик - маленький американский полицейский\финалочка\NonVisualComponentsNETFramework\obj\Debug\NonVisualComponentsNETFramework.pdb

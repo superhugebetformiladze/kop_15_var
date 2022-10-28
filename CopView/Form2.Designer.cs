@@ -32,9 +32,9 @@
             this.button_SimpleTable = new System.Windows.Forms.Button();
             this.button_ComplicatedTable = new System.Windows.Forms.Button();
             this.button_Gistagram = new System.Windows.Forms.Button();
-            this.gistagramWord = new NonVisualComponentLibraryS.GistagramWord(this.components);
-            this.wordComplicatedComponent = new NonVisualComponentLibraryS.WordComplicatedComponent(this.components);
-            this.wordSimpleComponent = new NonVisualComponentLibraryS.WordSimpleComponent();
+            this.gistagramWord = new NonVisualComponentsNETFramework.GistagramWord(this.components);
+            this.wordComplicatedComponent = new NonVisualComponentsNETFramework.WordComplicatedComponent(this.components);
+            this.wordSimpleComponent = new NonVisualComponentsNETFramework.WordSimpleComponent();
             this.SuspendLayout();
             // 
             // button_SimpleTable
@@ -89,8 +89,8 @@
         private Button button_SimpleTable;
         private Button button_ComplicatedTable;
         private Button button_Gistagram;
-        private NonVisualComponentLibraryS.GistagramWord gistagramWord;
-        private NonVisualComponentLibraryS.WordComplicatedComponent wordComplicatedComponent;
-        private NonVisualComponentLibraryS.WordSimpleComponent wordSimpleComponent;
+        private NonVisualComponentsNETFramework.GistagramWord gistagramWord;
+        private NonVisualComponentsNETFramework.WordComplicatedComponent wordComplicatedComponent;
+        private NonVisualComponentsNETFramework.WordSimpleComponent wordSimpleComponent;
     }
 }

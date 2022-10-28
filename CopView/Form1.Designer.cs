@@ -1,6 +1,8 @@
-﻿namespace CopView
+﻿//using VisualComponentsNETFramework;
+
+namespace CopView
 {
-    partial class Form1
+    /*partial class Form1
     {
         /// <summary>
         ///  Required designer variable.
@@ -28,14 +30,14 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.listBoxControl = new WinFormsControlLibraryS.ListBoxControl();
+            this.listBoxControl = new VisualComponentsNETFramework.ListBoxControl();
             this.buttonAdd = new System.Windows.Forms.Button();
             this.buttonClear = new System.Windows.Forms.Button();
             this.textBoxInputItems = new System.Windows.Forms.TextBox();
-            this.textBoxControl = new WinFormsControlLibraryS.TextBoxControl();
+            this.textBoxControl = new VisualComponentsNETFramework.TextBoxControl();
             this.buttonAddText = new System.Windows.Forms.Button();
             this.labelNumb = new System.Windows.Forms.Label();
-            this.dataGridViewControl1 = new WinFormsControlLibraryS.DataGridViewControl();
+            this.dataGridViewControl1 = new VisualComponentsNETFramework.DataGridViewControl();
             this.buttonClearDataGrid = new System.Windows.Forms.Button();
             this.buttonSelectItem = new System.Windows.Forms.Button();
             this.SuspendLayout();
@@ -44,6 +46,7 @@
             // 
             this.listBoxControl.Location = new System.Drawing.Point(27, 53);
             this.listBoxControl.Name = "listBoxControl";
+            this.listBoxControl.SelectedItem = "";
             this.listBoxControl.Size = new System.Drawing.Size(150, 150);
             this.listBoxControl.TabIndex = 0;
             this.listBoxControl.Load += new System.EventHandler(this.listBoxControl_Load);
@@ -79,7 +82,7 @@
             // 
             this.textBoxControl.Location = new System.Drawing.Point(293, 44);
             this.textBoxControl.Name = "textBoxControl";
-            this.textBoxControl.Size = new System.Drawing.Size(150, 161);
+            this.textBoxControl.Size = new System.Drawing.Size(162, 159);
             this.textBoxControl.TabIndex = 6;
             // 
             // buttonAddText
@@ -103,9 +106,9 @@
             // 
             // dataGridViewControl1
             // 
-            this.dataGridViewControl1.Location = new System.Drawing.Point(501, 64);
+            this.dataGridViewControl1.Location = new System.Drawing.Point(506, 64);
             this.dataGridViewControl1.Name = "dataGridViewControl1";
-            this.dataGridViewControl1.Size = new System.Drawing.Size(282, 183);
+            this.dataGridViewControl1.Size = new System.Drawing.Size(277, 203);
             this.dataGridViewControl1.TabIndex = 10;
             this.dataGridViewControl1.Load += new System.EventHandler(this.dataGridViewControl1_Load);
             // 
@@ -152,15 +155,15 @@
 
         #endregion
 
-        private WinFormsControlLibraryS.ListBoxControl listBoxControl;
+        private ListBoxControl listBoxControl;
         private Button buttonAdd;
         private Button buttonClear;
         private TextBox textBoxInputItems;
-        private WinFormsControlLibraryS.TextBoxControl textBoxControl;
+        private VisualComponentsNETFramework.TextBoxControl textBoxControl;
         private Button buttonAddText;
         private Label labelNumb;
-        private WinFormsControlLibraryS.DataGridViewControl dataGridViewControl1;
+        private VisualComponentsNETFramework.DataGridViewControl dataGridViewControl1;
         private Button buttonClearDataGrid;
         private Button buttonSelectItem;
-    }
+    }*/
 }

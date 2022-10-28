@@ -1,0 +1,13 @@
+D:\учебный\копчик - маленький американский полицейский\финалочка\ViewProduct\bin\Debug\ViewProduct.exe.config
+D:\учебный\копчик - маленький американский полицейский\финалочка\ViewProduct\bin\Debug\ViewProduct.exe
+D:\учебный\копчик - маленький американский полицейский\финалочка\ViewProduct\bin\Debug\ViewProduct.pdb
+D:\учебный\копчик - маленький американский полицейский\финалочка\ViewProduct\bin\Debug\ControlLibraryVT.dll
+D:\учебный\копчик - маленький американский полицейский\финалочка\ViewProduct\bin\Debug\WindowsFormsControlLibraryVM.dll
+D:\учебный\копчик - маленький американский полицейский\финалочка\ViewProduct\obj\Debug\ViewProduct.csproj.AssemblyReference.cache
+D:\учебный\копчик - маленький американский полицейский\финалочка\ViewProduct\obj\Debug\ViewProduct.csproj.SuggestedBindingRedirects.cache
+D:\учебный\копчик - маленький американский полицейский\финалочка\ViewProduct\obj\Debug\ViewProduct.Properties.Resources.resources
+D:\учебный\копчик - маленький американский полицейский\финалочка\ViewProduct\obj\Debug\ViewProduct.csproj.GenerateResource.cache
+D:\учебный\копчик - маленький американский полицейский\финалочка\ViewProduct\obj\Debug\ViewProduct.csproj.CoreCompileInputs.cache
+D:\учебный\копчик - маленький американский полицейский\финалочка\ViewProduct\obj\Debug\ViewProduct.csproj.CopyComplete
+D:\учебный\копчик - маленький американский полицейский\финалочка\ViewProduct\obj\Debug\ViewProduct.exe
+D:\учебный\копчик - маленький американский полицейский\финалочка\ViewProduct\obj\Debug\ViewProduct.pdb

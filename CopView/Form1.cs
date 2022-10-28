@@ -1,9 +1,9 @@
 using System.Windows.Forms;
-using WinFormsControlLibraryS;
+
 
 namespace CopView
 {
-    public partial class Form1 : Form
+    /*public partial class Form1 : Form
     {
         public Form1()
         {
@@ -21,8 +21,15 @@ namespace CopView
 
         private void ButtonAddText_Click(object sender, EventArgs e)
         {
-            labelNumb.Text = "Число: ";
-            labelNumb.Text += textBoxControl.ValueTextBox.ToString();
+            try
+            {
+                labelNumb.Text = "Число: ";
+                labelNumb.Text += textBoxControl.ValueTextBox.ToString();
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show(ex.Message);
+            }
         }
         public class MyObject
         {
@@ -63,5 +70,5 @@ namespace CopView
         }
 
 
-    }
+    }*/
 }
